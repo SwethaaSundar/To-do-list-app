@@ -4,6 +4,7 @@ let li = $('<li></li>');
 let inputValue = $('#input').val();
 li.append(inputValue);
 
+// validation
 if(inputValue === ''){
 alert("Input items into the list");
 }else{
