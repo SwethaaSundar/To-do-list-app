@@ -36,6 +36,7 @@ doneButton.append(document.createTextNode('Done'));
 li.append(doneButton);
 li.on('click',strikeOut);
 
-// sort item
+// sort item and clearing the input value after adding to the list
 $('#list').sortable();
+$("#input").val("");
 }
